@@ -1,0 +1,49 @@
+﻿body {
+    display:-ms-grid;
+    -ms-grid-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+}
+
+.left_up {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+    background:whitesmoke;
+}
+
+.right_up {
+     -ms-grid-column: 2;
+    -ms-grid-row: 1;
+    background:lightgray;
+}
+
+.left_down {
+     -ms-grid-column: 1;
+    -ms-grid-row: 2;
+    background:gray;
+}
+
+.right_down {
+     -ms-grid-column: 2;
+    -ms-grid-row: 2;
+    background:cornflowerblue;
+}
+
+.color {
+    font-size:50PX;
+    background-color:transparent;
+    color:black;
+    border: 5px;
+    border-color:black;
+}
+
+@media screen and (-ms-view-state: fullscreen-landscape) {
+}
+
+@media screen and (-ms-view-state: filled) {
+}
+
+@media screen and (-ms-view-state: snapped) {
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+}

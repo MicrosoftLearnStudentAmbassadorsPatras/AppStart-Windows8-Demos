@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="pickers_demo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:pickers_demo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FFEAEAEA">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="128"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="#FF575151">
+            <StackPanel Name="header" Orientation="Horizontal" Margin="60,30,0,0">
+                <!--<Button x:Name="backButton"  IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Click="backButton_Click_1"/> -->
+                <TextBlock Name="headerTitle" Text="notepad" FontSize="80" Margin="0,0,0,0"/>
+            </StackPanel>
+        </Grid>
+                
+        <Grid Grid.Row="1" Name="columnsGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <ScrollViewer Grid.Column="1" Name="scroll" Width="750" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                <TextBox
+                Name="input" 
+                Background="White" 
+                BorderThickness="0" 
+                ScrollViewer.BringIntoViewOnFocusChange="True"
+                CharacterSpacing="10"
+                AcceptsReturn="True" 
+                TextWrapping="Wrap"
+                FontFamily="Sengoe Ui"
+                FontSize="16"
+                TextChanged="input_TextChanged_1"
+            />
+            </ScrollViewer>
+
+        </Grid>
+       
+    </Grid>
+    
+    <Page.BottomAppBar>
+        <AppBar Background="#FF575151" >
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Grid.Column="0" x:Name="navigate" Style="{StaticResource NextAppBarButtonStyle}" AutomationProperties.Name="Second Page" Click="navigate_Click_1"/>
+
+                <Button Grid.Column="1" x:Name="textSmall" Style="{StaticResource FontDecreaseAppBarButtonStyle}" AutomationProperties.Name="Smaller" Click="textSmall_Click_1"/>
+                <Button Grid.Column="2" x:Name="textBig" Style="{StaticResource FontIncreaseAppBarButtonStyle}" AutomationProperties.Name="Larger" Click="textBig_Click_1"/>
+                
+                <Button Grid.Column="4" x:Name="load" Style="{StaticResource OpenLocalAppBarButtonStyle}" AutomationProperties.Name = "Load" Click="load_Click_1"/>
+                <Button Grid.Column="5" x:Name="save" Style="{StaticResource SaveAppBarButtonStyle}" Click="save_Click_1"/>
+            </Grid>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
