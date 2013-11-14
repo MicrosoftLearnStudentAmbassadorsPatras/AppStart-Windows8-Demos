@@ -2,7 +2,7 @@
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
   <Identity Name="4f0602f1-c45f-4221-94c4-ec7cd9e0f85a" Publisher="CN=vaggelic" Version="1.0.0.0" />
   <Properties>
-    <DisplayName>pickers_demo</DisplayName>
+    <DisplayName>pickers</DisplayName>
     <PublisherDisplayName>vaggelic</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -14,8 +14,8 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="pickers_demo.App">
-      <VisualElements DisplayName="pickers_demo" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="pickers_demo" ForegroundText="light" BackgroundColor="#464646">
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="pickers.App">
+      <VisualElements DisplayName="pickers" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="pickers" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="Assets\SplashScreen.png" />
       </VisualElements>

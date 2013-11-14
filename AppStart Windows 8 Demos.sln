@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "1 - HTML5 Basic Sample", "1 - HTML5_Basic_Sample\html_app\1 - HTML5 Basic Sample.jsproj", "{5D8C331F-3E35-4E75-BDA0-5668DAA3B6CF}"
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "1 - HTML5 Basic Sample", "1 - HTML5 Basic Sample\1 - HTML5 Basic Sample.jsproj", "{5D8C331F-3E35-4E75-BDA0-5668DAA3B6CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - XAML Basic Sample", "1 - XAML Basic Sample\xaml_app\1 - XAML Basic Sample.csproj", "{AC9CC04F-E0CA-46D6-97BD-2A4773B97563}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - XAML Basic Sample", "1 - XAML Basic Sample\1 - XAML Basic Sample.csproj", "{AC9CC04F-E0CA-46D6-97BD-2A4773B97563}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - Basic Controls", "2 - Basic Controls\2 - Basic Controls.csproj", "{A50659D0-D749-4F38-9A7E-E60EEDD1B527}"
 EndProject

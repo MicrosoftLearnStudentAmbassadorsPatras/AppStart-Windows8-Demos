@@ -6,7 +6,7 @@
             Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>facebook_animations_demo</DisplayName>
+    <DisplayName>Storyboard Animations</DisplayName>
     <PublisherDisplayName>vaggelic</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -23,12 +23,12 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="facebook_animations_demo.App">
+        EntryPoint="Storyboard_Animations.App">
         <VisualElements
-            DisplayName="facebook_animations_demo"
+            DisplayName="Storyboard Animations"
             Logo="Assets\Logo.png"
             SmallLogo="Assets\SmallLogo.png"
-            Description="facebook_animations_demo"
+            Description="Storyboard Animations"
             ForegroundText="light"
             BackgroundColor="#464646">
             <DefaultTile ShowName="allLogos" />

@@ -1,8 +1,8 @@
 ﻿<Application
-    x:Class="facebook_animations_demo.App"
+    x:Class="Storyboard_Animations.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:facebook_animations_demo">
+    xmlns:local="using:Storyboard_Animations">
 
     <Application.Resources>
         <ResourceDictionary>

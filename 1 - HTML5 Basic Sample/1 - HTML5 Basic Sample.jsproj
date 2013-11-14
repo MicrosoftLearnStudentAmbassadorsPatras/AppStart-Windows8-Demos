@@ -47,7 +47,7 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>html_app_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile></PackageCertificateKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -61,7 +61,6 @@
     <Content Include="js\default.js" />
     <Content Include="css\default.css" />
     <Content Include="Music\Pitbull - Rain Over Me ft. Marc Anthony.mp3" />
-    <None Include="html_app_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />

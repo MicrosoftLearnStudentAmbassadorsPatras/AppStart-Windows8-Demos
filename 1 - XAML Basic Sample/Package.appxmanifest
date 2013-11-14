@@ -6,7 +6,7 @@
             Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>xaml_app</DisplayName>
+    <DisplayName>xaml_basics</DisplayName>
     <PublisherDisplayName>vaggelis</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -23,12 +23,12 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="xaml_app.App">
+        EntryPoint="xaml_basics.App">
         <VisualElements
-            DisplayName="xaml_app"
+            DisplayName="xaml_basics"
             Logo="Assets\Logo.png"
             SmallLogo="Assets\SmallLogo.png"
-            Description="xaml_app"
+            Description="xaml_basics"
             ForegroundText="light"
             BackgroundColor="#464646">
             <DefaultTile ShowName="allLogos" />

@@ -19,7 +19,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace pickers_demo
+namespace pickers
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
@@ -87,7 +87,7 @@ namespace pickers_demo
                 {
                     input.Text = await Windows.Storage.FileIO.ReadTextAsync(file);
                 }
-                catch (Exception ex)
+                catch
                 {
                     // error while reading txt -> propably unsupported unicode characters
                 }
